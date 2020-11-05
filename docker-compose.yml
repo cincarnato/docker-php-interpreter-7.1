@@ -1,0 +1,5 @@
+version: '3'
+services:
+  php-interpreter-7.1:
+    build: .
+    image: php-interpreter-7.1
