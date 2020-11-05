@@ -1,4 +1,4 @@
-FROM php:7.1-alpine
+FROM php:7.1.33-alpine
 
 RUN apk update \
     && apk add  --no-cache git mysql-client curl libmcrypt libmcrypt-dev openssh-client icu-dev \
